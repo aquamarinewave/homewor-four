@@ -30,6 +30,11 @@ body {
     margin-left: 65px;
 }
 
+.in-bl {
+    display: inline-block;
+}
+
+/*header info*/
 header {
     height: 70px;
     background: #8c0a0d;
@@ -75,6 +80,7 @@ header {
     margin-right: 11px;
 }
 
+/*Main part of content*/
 .bg-sparkles {
     width: 1300px;
     height: 730px;
@@ -89,6 +95,7 @@ header {
     position: absolute;
 }
 
+/*Slider*/
 .plant {
     margin-top: 26px;
     width: 1170px;
@@ -139,6 +146,23 @@ header {
 
 .right-btn {
     width: 55px;
+}
+
+.dots {
+    margin-left: 555px;
+    margin-top: 80px;
+}
+
+.dot {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: #ffffff;
+}
+
+#orange-dot {
+    background: #bf670d;
+    margin: 0 9px;
 }
 
 .content {
@@ -201,6 +225,7 @@ header {
     left: 894px;
 }
 
+/*Contact information*/
 footer {
     color: #f6cc79;
     height: 70px;
@@ -209,10 +234,6 @@ footer {
     position: relative;
     top: -50px;
     z-index: 2;
-}
-
-.in-bl {
-    display: inline-block;
 }
 
 .contacts {
